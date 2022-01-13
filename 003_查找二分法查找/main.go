@@ -20,7 +20,7 @@ func BinarySearch(dataSet []int, valueSet int) {
 		fmt.Println("mid:", mid, "midd的值：", dataSet[mid], "left:", left, "right:", right)
 		switch {
 		case dataSet[mid] < valueSet:
-			if left == len(dataSet)-1 {
+			if left == len(dataSet)-1 {       //防止越界
 				fmt.Println("没有啊")
 				return
 			}
