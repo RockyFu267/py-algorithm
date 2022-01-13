@@ -26,7 +26,7 @@ func BinarySearch(dataSet []int, valueSet int) {
 			}
 			left = mid + 1
 		case dataSet[mid] > valueSet:
-			if right == 0 {
+			if right == 0 {				//说明没有
 				fmt.Println("没有啊")
 				return
 			}
