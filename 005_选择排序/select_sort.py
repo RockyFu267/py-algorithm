@@ -5,6 +5,7 @@ def select_sort(listSet):
             if minNum > listSet[j]:
                 minNum = listSet[j]
                 listSet[i] , listSet[j] = listSet[j], listSet[i]
+            print(listSet)
         print(listSet)
 
 listSet = [9,8,7,1,2,3,4,5,6]
